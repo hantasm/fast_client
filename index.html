@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title>Hangman Client</title>
+  <script src="myscripts.js"></script>
+</head>
+<body>
+  <h2>Hangman Client</h2>
+  <br>
+  API URL:<input type="text" id="apiURL">
+  Username:<input type="text" id="userName">
+  <br>
+  <input type="button" onclick="clickStart()" value="Start Game">
+  <input type="button" onclick="clickGet()" value="Get Result">
+  <input type="button" onclick="clickSubmit()" value="Submit Result">
+  <br>
+  <div id="reqText"></div>
+  <input type="button" onclick="clickSend()" value="Send Request">
+  <br>
+  <div id="resText"></div>
+  <br>
+  <input type="button" onclick="clickNext()" value="Next Word">
+  <br>
+  Guess Letter:<input type="text" id="guessLetter">
+  <input type="button" onclick="clickGuess()" value="Guess A Letter">
+</body>
+</html>
